@@ -52,7 +52,7 @@ function App() {
               <PublicRoute exact path="/proyecto-5-client/:productId" component={Product} />
 
               {/* RUTA BASE */}
-              <PublicRoute exact path="//proyecto-5-client" component={Main} />
+              <PublicRoute exact path="/proyecto-5-client" component={Main} />
 
             </Switch>
 
