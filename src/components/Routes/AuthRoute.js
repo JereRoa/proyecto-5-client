@@ -23,7 +23,7 @@ export default function AuthRoute({ component: Component, ...props }) {
             if(loading) return null
 
             return authStatus ? 
-                (<Redirect to="/" />)
+                (<Redirect to="/proyecto-5-client/" />)
                 :
                 (<Component {...props} />)
             }
