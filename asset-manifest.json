@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/proyecto-5-client/static/css/main.230ac6d0.chunk.css",
+    "main.js": "/proyecto-5-client/static/js/main.44f4b153.chunk.js",
+    "main.js.map": "/proyecto-5-client/static/js/main.44f4b153.chunk.js.map",
+    "runtime-main.js": "/proyecto-5-client/static/js/runtime-main.9042c0e9.js",
+    "runtime-main.js.map": "/proyecto-5-client/static/js/runtime-main.9042c0e9.js.map",
+    "static/js/2.c633ec36.chunk.js": "/proyecto-5-client/static/js/2.c633ec36.chunk.js",
+    "static/js/2.c633ec36.chunk.js.map": "/proyecto-5-client/static/js/2.c633ec36.chunk.js.map",
+    "static/js/3.ab55e203.chunk.js": "/proyecto-5-client/static/js/3.ab55e203.chunk.js",
+    "static/js/3.ab55e203.chunk.js.map": "/proyecto-5-client/static/js/3.ab55e203.chunk.js.map",
+    "index.html": "/proyecto-5-client/index.html",
+    "static/css/main.230ac6d0.chunk.css.map": "/proyecto-5-client/static/css/main.230ac6d0.chunk.css.map",
+    "static/js/2.c633ec36.chunk.js.LICENSE.txt": "/proyecto-5-client/static/js/2.c633ec36.chunk.js.LICENSE.txt",
+    "static/media/Jumbotron Gamer.42e1a65a.jpg": "/proyecto-5-client/static/media/Jumbotron Gamer.42e1a65a.jpg",
+    "static/media/arukadian-logo.8cce325c.svg": "/proyecto-5-client/static/media/arukadian-logo.8cce325c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9042c0e9.js",
+    "static/js/2.c633ec36.chunk.js",
+    "static/css/main.230ac6d0.chunk.css",
+    "static/js/main.44f4b153.chunk.js"
+  ]
+}
