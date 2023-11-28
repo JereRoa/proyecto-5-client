@@ -1,5 +1,6 @@
 {
   "name": "webdev-finaldemo",
+  "homepage": "/proyecto-5-client/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

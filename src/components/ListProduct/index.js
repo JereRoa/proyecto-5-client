@@ -7,7 +7,7 @@ import ProductContext from '../../context/Product/ProductContext'
 
 
 export default function ListProducts(props) {
-
+console.log('aquí van las props', props)
   const ctx = useContext(ProductContext)
 
   const { products, getProducts } = ctx
