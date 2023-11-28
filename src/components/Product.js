@@ -15,7 +15,7 @@ export default function Product() {
   const { productId } = params
 
   const ctxProduct = useContext(ProductContext)
-  const { product, getProduct, getPreferenceCheckoutMP } = ctxProduct
+  const { product, getProducts, getPreferenceCheckoutMP } = ctxProduct
   const { nombre, precio, imagen, color } = product[0]
 
   const ctxUser = useContext(UserContext)
@@ -23,9 +23,11 @@ export default function Product() {
 
   useEffect(() => {
 
+    //https://api-proyecto5.onrender.com/obtener-productos/65565b6c9cb42f3a3f61f5bc
+
     const fetchProduct = async () => {
 
-        const res = await getProduct(productId)      
+        const res = await getProducts(productId)      
 
         // MANEJO DE MERCADOPAGO.COM, SOLO SI HAY USUARIO
         if(user){
