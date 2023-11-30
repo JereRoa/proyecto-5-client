@@ -15,7 +15,7 @@ export default function Product() {
   const { productId } = params
 
   const ctxProduct = useContext(ProductContext)
-  const { product, getProducts, getPreferenceCheckoutMP } = ctxProduct
+  const { product, getProduct, getPreferenceCheckoutMP } = ctxProduct
   const { nombre, precio, imagen, color } = product[0]
 
   const ctxUser = useContext(UserContext)
@@ -27,7 +27,7 @@ export default function Product() {
 
     const fetchProduct = async () => {
 
-        const res = await getProducts(productId)      
+        const res = await getProduct(productId)      
 
         // MANEJO DE MERCADOPAGO.COM, SOLO SI HAY USUARIO
         if(user){

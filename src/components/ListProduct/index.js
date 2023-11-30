@@ -10,12 +10,12 @@ export default function ListProducts(props) {
 console.log('aquí van las props', props)
   const ctx = useContext(ProductContext)
 
-  const { products, getProducts } = ctx
+  const { products, getProduct } = ctx
 
   useEffect(() => {
 
     const fetchProducts = () => {
-      return getProducts()
+      return getProduct()
     }
 
     fetchProducts()
