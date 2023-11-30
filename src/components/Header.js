@@ -83,7 +83,7 @@ export default function Header() {
                   <div className="-m-2 p-2 flex items-center">
                     <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/US.svg" alt="" className="w-5 h-auto block flex-shrink-0" />
                     <span className="ml-3 block text-base font-medium text-gray-900">
-                      USD
+                      CLP
                     </span>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ export default function Header() {
                     <div className="mx-10 text-gray-700 hover:text-gray-800 flex items-center">
                       <img src="https://catamphetamine.gitlab.io/country-flag-icons/3x2/US.svg" alt="" className="w-5 h-auto block flex-shrink-0" />
                       <span className="ml-3 block text-sm font-medium">
-                        USD
+                        CLP
                       </span>
                     </div>
                   </div>

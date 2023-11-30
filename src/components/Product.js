@@ -126,7 +126,7 @@ const addCheckout = (id) => {
                   <h2 className="text-3xl font-extrabold text-gray-400">Características</h2>
 
                   <p className="text-base text-gray-900 mt-6">
-                    <b>Precio</b>: ${precio} USD
+                    <b>Precio</b>: ${precio} CLP
                   </p>
 
                   <p className="text-base text-gray-900 mb-6">
