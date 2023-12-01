@@ -12,8 +12,8 @@ export default function Product() {
 
   const params = useParams()
 
-  //const { productId } = params
-  const productId = params.producId
+  const { productId } = params
+
 
   const ctxProduct = useContext(ProductContext)
   const { product, getProduct, getPreferenceCheckoutMP } = ctxProduct

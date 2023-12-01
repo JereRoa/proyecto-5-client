@@ -12,7 +12,7 @@ console.log('aquí van las props', props)
 
   const { products, getProduct } = ctx
 
- /*  useEffect(() => {
+  useEffect(() => {
 
     const fetchProducts = () => {
       return getProduct()
@@ -20,28 +20,8 @@ console.log('aquí van las props', props)
 
     fetchProducts()
 
-  }, []) */
+  }, []) 
 
-  useEffect(() => {
-
-    const fetchProducts = async () => {
-  
-      try {
-  
-        await getProduct();
-  
-      } catch (error) {
-  
-        console.error('Error fetching products:', error);
-  
-      }
-  
-    };
-  
-  
-    fetchProducts();
-  
-  }, []);
 
   return (
     <div className="bg-white">
