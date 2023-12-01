@@ -17,7 +17,7 @@ export default function Product() {
 
   const ctxProduct = useContext(ProductContext)
   const { product, getProduct, getPreferenceCheckoutMP } = ctxProduct
-  const { nombre, precio, imagen, color } = product[0]
+  const { producto, precio, color, imagen } = product[0]
 
   const ctxUser = useContext(UserContext)
   const { user } = ctxUser
@@ -36,7 +36,7 @@ export default function Product() {
         const id = await getPreferenceCheckoutMP({
           items: [
               {
-                  title: res.nombre,
+                  title: res.producto,
                   quantity: 1,
                   currency_id: "CLP",
                   unit_price: res.precio,
@@ -105,7 +105,7 @@ const addCheckout = (id) => {
 
                   <li className="text-sm">
                     <a href="#" aria-current="page" className="font-medium text-gray-500 hover:text-gray-600">
-                      { nombre }
+                      { producto }
                     </a>
                   </li>
                 </ol>
@@ -119,7 +119,7 @@ const addCheckout = (id) => {
               <div className="max-w-2xl mx-auto pt-10 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:pt-16 lg:pb-24 lg:px-8 lg:grid lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8">
                 <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
                   <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">
-                    { nombre }
+                    { producto }
                   </h1>
                 </div>
 
