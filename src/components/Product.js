@@ -12,7 +12,8 @@ export default function Product() {
 
   const params = useParams()
 
-  const { productId } = params
+  //const { productId } = params
+  const productId = params.producId
 
   const ctxProduct = useContext(ProductContext)
   const { product, getProduct, getPreferenceCheckoutMP } = ctxProduct
@@ -60,7 +61,7 @@ export default function Product() {
 
     fetchProduct()
 
-  }, [])
+  }, [productId])
 
 const addCheckout = (id) => {
   const mp = new window.MercadoPago("TEST-f31ae17b-5010-4a25-ae43-83402bf29ce7", {
