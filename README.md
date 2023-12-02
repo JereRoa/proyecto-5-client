@@ -1,4 +1,4 @@
-Proyecto 5 E-Commerce con React, Express Fullstack:
+Proyecto 5 E-Commerce con MONGO, EXPRESS, REACT Y NODEJS:
 
 $ cd client $ npm install $ npm run start
 
